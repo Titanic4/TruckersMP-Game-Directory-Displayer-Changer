@@ -14,6 +14,7 @@ namespace TruckersMP_Game_Directory_Displayer
         [STAThread]
         static void Main()
         {
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
