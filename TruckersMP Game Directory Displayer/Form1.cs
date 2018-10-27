@@ -84,7 +84,7 @@ namespace TruckersMP_Game_Directory_Displayer
             {
 
         
-            if (System.IO.File.Exists(folder.SelectedPath.ToString() + "\\bin\\win_x64\\" + ((Game == "ATS") ? ("amtrucks.exe") : ("eurotrucks2.exe"))))
+            if (System.IO.File.Exists(folder.SelectedPath.ToString() + "\\bin\\win_x64\\" + ((Game == "ATS") ? ("amtrucks.exe") : ("eurotrucks2.exe")))&& A.FileVersion != "")
             {
                 Print("Selected directory...");
                     TMP.SetValue("InstallLocation" + Game, folder.SelectedPath);
